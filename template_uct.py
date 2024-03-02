@@ -39,7 +39,7 @@ class UCTAgent(Agent):
         iteration (int): The number of simulations to perform in the UCT algorithm.
     """
 
-    def __init__(self, player, game, iteration):
+    def __init__(self, player, game, iteration=50):
         """Initializes a UCTAgent with a specified player, game, and number of iterations.
 
         Args:

@@ -10,7 +10,7 @@ class AlphaBetaAgent(Agent):
         max_depth (int): The maximum depth the search algorithm will explore.
     """
 
-    def __init__(self, player, game, max_depth):
+    def __init__(self, player, game, max_depth=2):
         """Initializes an AlphaBetaAgent instance with a specified player, game, and maximum search depth.
 
         Args:
